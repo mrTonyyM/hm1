@@ -28,3 +28,4 @@ def r_coef (vector1,vector2):
     r_coef = cov(vector1,vector2)/pow(disp(vector1)*disp(vector2),0.5)
     return r_coef
 
+
