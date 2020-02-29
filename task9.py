@@ -6,7 +6,7 @@ def average (ls):
         sum += l
     return sum/len(ls)
 
-with open(r'C:\Users\RobotOne\Downloads\task9_1.txt','r', encoding="utf-8") as inf:
+with open(r'C:\Users\RobotOne\Downloads\dataset_3363_4.txt','r', encoding="utf-8") as inf:
     makrMath,makrPhis,makrRus = [],[],[]
     for line in inf:
         line = line.strip()
